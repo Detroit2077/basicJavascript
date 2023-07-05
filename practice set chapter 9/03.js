@@ -5,7 +5,7 @@ const something = async() => {
         }, 3000);
     })
 }
-const something2 = async() => {
+const anything = async() => {
     try{
         let p1 = await something();
         console.log(p1);
@@ -14,3 +14,4 @@ const something2 = async() => {
         console.log(error);
     }
 }
+anything()
