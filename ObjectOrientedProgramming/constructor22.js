@@ -18,7 +18,7 @@ class Programmer extends Employee {
     //     super(); // This will call the constructor of parent class
     // }
     constructor(name) {
-        super(name); // This will call the constructor of parent class
+        super(name); // We have to call this
         console.log(`Programmer ${name} constructor called`);
         
     }
